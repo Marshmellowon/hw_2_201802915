@@ -1,41 +1,83 @@
-.body {
-  background-image: url(image/moviebg.png);
-  display: block;
+/* 201802915 이상원 */
+
+/* class */
+.marginpaddingzero {
   margin: 0px;
   padding: 0px;
 }
-#bannernav {
+.bold {
+  font-weight: bold;
+}
+nav.comment {
+  display: flex;
+  width: 90%;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #cccccc;
+  border-radius: 12px;
+  margin: auto;
+}
+div.comment {
+  display: flex;
+  margin: 1em;
+}
+q.comment {
+  font-size: 13pt;
+  font-family: Georgia;
+}
+img.comment {
+  margin-right: 5px;
+}
+nav.reviewer {
+  width: 90%;
+  margin: 5px auto;
+  font-size: 13pt;
+}
+span.comp {
+  font-style: italic;
+}
+
+/* id */
+#body {
+  background-image: url(image/moviebg.png);
+  display: block;
+}
+#bannerarticle {
   background-image: url(image/rancidbannerbg.png);
   height: 50px;
-  margin: 0px;
-  padding: 0px;
   text-align: center;
 }
 header {
   text-align: center;
   /* position: relative; */
   font-size: 24pt;
-  font-weight: bold;
-  font-family: Georgia;
+  font-family: "Times New Roman";
   text-shadow: 3px 3px 0px #999999;
 }
 section#mainsection {
-  display: flex;
+  display: flexbox;
   background-color: #eeeeee;
-  /* position: relative; */
   width: 55%;
   height: 55%;
   margin: auto;
-  /* text-align: center; */
   box-shadow: 5px 5px 5px gray;
 }
-div#overall {
+article#rating {
+  display: flex;
+  height: 83px;
+  background-image: url(image/rottenlargebg.png);
+  margin-bottom: 1rem;
 }
-img#review {
-  z-index: 20;
+nav#ratingtxt {
+  font-size: 48pt;
+  color: red;
 }
-img#reviewbg {
-  width: 100%;
-  z-index: 10;
-  height: 50px;
+footer {
+  background-color: #a2b964;
+  text-align: center;
+  /* 0.5em separate the edge of its text and the element’s own
+outer edge */
+}
+article#review {
+  display: flexbox;
 }
