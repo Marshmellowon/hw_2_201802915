@@ -1,22 +1,33 @@
 /* 201802915 이상원 */
 
-/* class */
-
-.marginpaddingzero {
+body {
+  background-image: url(image/moviebg.png);
   margin: 0px;
   padding: 0px;
+}
+header {
+  text-align: center;
+  font-size: 24pt;
+  font-family: "Times New Roman";
+  text-shadow: 3px 3px 0px #999999;
+}
+footer {
+  width: 55%;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a2b964;
+}
+
+/* class */
+.disflex {
+  display: flex;
 }
 .bold {
   font-weight: bold;
 }
-nav.comment {
-  display: flex;
-  width: 90%;
-  background-color: #ffffff;
-  border: 2px solid;
-  border-color: #cccccc;
-  border-radius: 12px;
-  margin: auto;
+.txtcenter {
+  text-align: center;
 }
 div.comment {
   margin: 1em;
@@ -28,8 +39,42 @@ q.comment {
 img.comment {
   margin-right: 5px;
 }
-nav.reviewer {
-  display: flex;
+
+/* id */
+
+article#banner {
+  background-image: url(image/rancidbannerbg.png);
+  height: 50px;
+}
+section#mainsection {
+  flex-wrap: wrap;
+  background-color: #eeeeee;
+  width: 55%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
+nav#comment {
+  width: 90%;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #cccccc;
+  border-radius: 12px;
+  margin: auto;
+}
+article#rating {
+  width: 100%;
+  height: 83px;
+  background-image: url(image/rottenlargebg.png);
+}
+article#review {
+  margin-top: 1rem;
+  flex: 2;
+}
+nav#ratingtxt {
+  font-size: 48pt;
+  color: red;
+}
+nav#reviewer {
   width: 90%;
   margin: 5px auto;
   font-size: 13pt;
@@ -43,52 +88,6 @@ div#information {
   font-family: Arial;
 }
 
-/* id */
-#body {
-  background-image: url(image/moviebg.png);
-}
-#bannerarticle {
-  background-image: url(image/rancidbannerbg.png);
-  height: 50px;
-  text-align: center;
-}
-header {
-  text-align: center;
-  /* position: relative; */
-  font-size: 24pt;
-  font-family: "Times New Roman";
-  text-shadow: 3px 3px 0px #999999;
-}
-section#mainsection {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #eeeeee;
-  width: 55%;
-  margin: auto;
-  box-shadow: 5px 5px 5px gray;
-}
-article#rating {
-  display: flex;
-  width: 100%;
-  height: 83px;
-  background-image: url(image/rottenlargebg.png);
-}
-article#review {
-  margin-top: 1rem;
-  flex: 2;
-}
-nav#ratingtxt {
-  font-size: 48pt;
-  color: red;
-}
-footer {
-  width: 55%;
-  margin-top: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #a2b964;
-  text-align: center;
-}
 article#info {
   flex: 1;
   background-color: #a2b964;
@@ -97,7 +96,6 @@ img#poster {
   width: 100%;
 }
 div#validator {
-  display: flex;
   flex-wrap: wrap;
 }
 section#validator {
