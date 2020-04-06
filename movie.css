@@ -36,6 +36,15 @@ nav.reviewer {
 span.comp {
   font-style: italic;
 }
+div.info {
+  margin-top: 15px;
+  font-size: 12pt;
+  font-family: Arial;
+}
+
+dl > dt {
+  font-weight: bold;
+}
 
 /* id */
 #body {
@@ -70,17 +79,22 @@ article#rating {
   background-image: url(image/rottenlargebg.png);
   margin-bottom: 1rem;
 }
+article#review {
+  flex: 1;
+}
 nav#ratingtxt {
   font-size: 48pt;
   color: red;
 }
 footer {
+  width: 55%;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #a2b964;
   text-align: center;
-  /* 0.5em separate the edge of its text and the element’s own
-outer edge */
 }
 article#info {
+  flex: 1;
   background-color: #a2b964;
-  margin-left: 15px;
 }
