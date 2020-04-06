@@ -29,9 +29,6 @@ footer {
 .txtcenter {
   text-align: center;
 }
-div.comment {
-  margin: 1em;
-}
 q.comment {
   font-size: 13pt;
   font-family: Georgia;
@@ -64,15 +61,18 @@ nav#comment {
 article#rating {
   width: 100%;
   height: 83px;
+  margin-bottom: 1rem;
   background-image: url(image/rottenlargebg.png);
 }
 article#review {
-  margin-top: 1rem;
   flex: 2;
 }
 nav#ratingtxt {
   font-size: 48pt;
   color: red;
+}
+div#commentmargin {
+  margin: 1em;
 }
 nav#reviewer {
   width: 90%;
