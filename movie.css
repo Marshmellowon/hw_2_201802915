@@ -18,7 +18,6 @@ nav.comment {
   margin: auto;
 }
 div.comment {
-  display: flex;
   margin: 1em;
 }
 q.comment {
@@ -29,6 +28,7 @@ img.comment {
   margin-right: 5px;
 }
 nav.reviewer {
+  display: flex;
   width: 90%;
   margin: 5px auto;
   font-size: 13pt;
@@ -55,7 +55,8 @@ header {
   text-shadow: 3px 3px 0px #999999;
 }
 section#mainsection {
-  display: flexbox;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #eeeeee;
   width: 55%;
   height: 55%;
@@ -64,6 +65,7 @@ section#mainsection {
 }
 article#rating {
   display: flex;
+  width: 100%;
   height: 83px;
   background-image: url(image/rottenlargebg.png);
   margin-bottom: 1rem;
@@ -78,6 +80,7 @@ footer {
   /* 0.5em separate the edge of its text and the element’s own
 outer edge */
 }
-article#review {
-  display: flexbox;
+article#info {
+  background-color: #a2b964;
+  margin-left: 15px;
 }
