@@ -1,6 +1,7 @@
 /* 201802915 이상원 */
 
 /* class */
+
 .marginpaddingzero {
   margin: 0px;
   padding: 0px;
@@ -33,23 +34,18 @@ nav.reviewer {
   margin: 5px auto;
   font-size: 13pt;
 }
-span.comp {
+span#comp {
   font-style: italic;
 }
-div.info {
+div#information {
   margin-top: 15px;
   font-size: 12pt;
   font-family: Arial;
 }
 
-dl > dt {
-  font-weight: bold;
-}
-
 /* id */
 #body {
   background-image: url(image/moviebg.png);
-  display: block;
 }
 #bannerarticle {
   background-image: url(image/rancidbannerbg.png);
@@ -68,7 +64,6 @@ section#mainsection {
   flex-wrap: wrap;
   background-color: #eeeeee;
   width: 55%;
-  height: 55%;
   margin: auto;
   box-shadow: 5px 5px 5px gray;
 }
@@ -77,10 +72,10 @@ article#rating {
   width: 100%;
   height: 83px;
   background-image: url(image/rottenlargebg.png);
-  margin-bottom: 1rem;
 }
 article#review {
-  flex: 1;
+  margin-top: 1rem;
+  flex: 2;
 }
 nav#ratingtxt {
   font-size: 48pt;
@@ -97,4 +92,17 @@ footer {
 article#info {
   flex: 1;
   background-color: #a2b964;
+}
+img#poster {
+  width: 100%;
+}
+div#validator {
+  display: flex;
+  flex-wrap: wrap;
+}
+section#validator {
+  margin-bottom: 5px;
+}
+img#vali {
+  margin-left: 95%;
 }
