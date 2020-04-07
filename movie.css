@@ -1,4 +1,11 @@
-/* 201802915 이상원 */
+/* Name: Lee Sang Won
+	IAB 6068 Homework: Movie Review
+  File Name: movie.css
+  Description: This file is movie.css which is homework of 
+               IAB 6068 class. This file is stylesheet of lionking movie review page.
+
+                
+ */
 
 body {
   background-image: url(image/moviebg.png);
@@ -36,21 +43,11 @@ q.comment {
 img.comment {
   margin-right: 5px;
 }
-
-/* id */
-
-article#banner {
-  background-image: url(image/rancidbannerbg.png);
-  height: 50px;
+div.commentmargin {
+  margin: 1em;
 }
-section#mainsection {
-  flex-wrap: wrap;
-  background-color: #eeeeee;
-  width: 55%;
-  margin: auto;
-  box-shadow: 5px 5px 5px gray;
-}
-nav#comment {
+nav.comment {
+  display: flex;
   width: 90%;
   background-color: #ffffff;
   border: 2px solid;
@@ -58,7 +55,44 @@ nav#comment {
   border-radius: 12px;
   margin: auto;
 }
+nav.reviewer {
+  display: flex;
+  width: 90%;
+  margin: 5px auto;
+  font-size: 13pt;
+}
+div.reviewer {
+  display: flex;
+  margin: 1em;
+}
+span.comp {
+  font-style: italic;
+}
+div.banner {
+  text-align: center;
+  background-image: url(image/rancidbannerbg.png);
+  height: 50px;
+}
+div.information {
+  margin-top: 15px;
+  font-size: 12pt;
+  font-family: Arial;
+}
+img.vali {
+  margin-left: 95%;
+}
+/* id */
+
+section#mainsection {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eeeeee;
+  width: 55%;
+  margin: auto;
+  box-shadow: 5px 5px 5px gray;
+}
 article#rating {
+  display: flex;
   width: 100%;
   height: 83px;
   margin-bottom: 1rem;
@@ -68,24 +102,10 @@ article#review {
   flex: 2;
 }
 nav#ratingtxt {
+  display: flex;
   font-size: 48pt;
   color: red;
-}
-div#commentmargin {
-  margin: 1em;
-}
-nav#reviewer {
-  width: 90%;
-  margin: 5px auto;
-  font-size: 13pt;
-}
-span#comp {
-  font-style: italic;
-}
-div#information {
-  margin-top: 15px;
-  font-size: 12pt;
-  font-family: Arial;
+  font-weight: bold;
 }
 
 article#info {
@@ -100,7 +120,4 @@ div#validator {
 }
 section#validator {
   margin-bottom: 5px;
-}
-img#vali {
-  margin-left: 95%;
 }
