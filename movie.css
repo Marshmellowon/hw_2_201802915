@@ -1,10 +1,11 @@
-/* Name: Lee Sang Won
-	IAB 6068 Homework: Movie Review
+/*
+  Name: Lee Sang Won
+  IAB 6068 Homework: Movie Review
   File Name: movie.css
   Description: This file is movie.css which is homework of 
-               IAB 6068 class. This file is stylesheet of lionking movie review page.
-
-                
+             IAB 6068 class. This file is stylesheet of lionking movie review page.
+  File's content: This file is css file of lionking.html.
+  Validation: When I checked this file, there's no any other error.
  */
 
 body {
@@ -78,9 +79,10 @@ div.information {
   font-size: 12pt;
   font-family: Arial;
 }
-img.vali {
+.vali {
   margin-left: 95%;
 }
+
 /* id */
 
 section#mainsection {
